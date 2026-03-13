@@ -7,20 +7,15 @@ body {
     margin: 0px;
 }
 
-.container {
-    width: 90%;
-    justify-content: center;
-    margin: 0 auto;
-}
-
-.bghead{
-    background-color: #1F2937;
-}
-
 .top {
     display: flex;
     justify-content: space-between;
-    margin-top: 15px;
+    margin: 0px;
+    padding: 10px 50px;
+    background-color: #1F2937;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .logo {
@@ -32,9 +27,10 @@ body {
 .headwrap {
     display: flex;
     gap: 15px;
-    margin-bottom: 40px;
-    margin-top: 40px;
+    margin: 0px;
+    padding: 50px;
     justify-content: space-between;
+    background-color: #1F2937;
 }
 
 ul {
